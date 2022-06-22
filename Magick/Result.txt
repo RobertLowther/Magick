@@ -1,0 +1,59 @@
+namespace Magick
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string path = "";
+
+            if (!File.Exists(path))
+            {
+                throw new FileNotFoundException(path);
+            }
+        }
+    }
+}
+
+(1, KEYWORD, "namespace")
+(1, IDENTIFIER, "Magick")
+(2, SPECIAL_SYMBOL, "{")
+(3, KEYWORD, "class")
+(3, IDENTIFIER, "Program")
+(4, SPECIAL_SYMBOL, "{")
+(5, KEYWORD, "static")
+(5, KEYWORD, "void")
+(5, IDENTIFIER, "Main")
+(5, SPECIAL_SYMBOL, "(")
+(5, IDENTIFIER, "string")
+(5, SPECIAL_SYMBOL, "[")
+(5, SPECIAL_SYMBOL, "]")
+(5, IDENTIFIER, "args")
+(5, SPECIAL_SYMBOL, ")")
+(6, SPECIAL_SYMBOL, "{")
+(7, IDENTIFIER, "string")
+(7, IDENTIFIER, "path")
+(7, OPERATOR, "=")
+(7, STRING, "")
+(7, SPECIAL_SYMBOL, ";")
+(9, KEYWORD, "if")
+(9, SPECIAL_SYMBOL, "(")
+(9, OPERATOR, "!")
+(9, IDENTIFIER, "File")
+(9, SPECIAL_SYMBOL, ".")
+(9, IDENTIFIER, "Exists")
+(9, SPECIAL_SYMBOL, "(")
+(9, IDENTIFIER, "path")
+(9, SPECIAL_SYMBOL, ")")
+(9, SPECIAL_SYMBOL, ")")
+(10, SPECIAL_SYMBOL, "{")
+(11, KEYWORD, "throw")
+(11, KEYWORD, "new")
+(11, IDENTIFIER, "FileNotFoundException")
+(11, SPECIAL_SYMBOL, "(")
+(11, IDENTIFIER, "path")
+(11, SPECIAL_SYMBOL, ")")
+(11, SPECIAL_SYMBOL, ";")
+(12, SPECIAL_SYMBOL, "}")
+(13, SPECIAL_SYMBOL, "}")
+(14, SPECIAL_SYMBOL, "}")
+(15, SPECIAL_SYMBOL, "}")

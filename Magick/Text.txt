@@ -1,0 +1,15 @@
+namespace Magick
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string path = "";
+
+            if (!File.Exists(path))
+            {
+                throw new FileNotFoundException(path);
+            }
+        }
+    }
+}

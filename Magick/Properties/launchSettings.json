@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Magick": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Robert\\source\\repos\\Magick\\Magick\\Text.txt C:\\Users\\Robert\\source\\repos\\Magick\\Magick\\Result.txt"
+    }
+  }
+}
